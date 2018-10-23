@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-upload",
+  "version": "1.0.0",
+  "description": "node上传文件，下载文件",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "start": "babel-node src/index.js",
+    "debug": "babel-node src/index.js"
+  },
+  "keywords": [
+    "koa、babel、upload"
+  ],
+  "author": "xb",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "fs": "^0.0.1-security",
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}

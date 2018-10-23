@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="browsermode" content="application">
+		<meta name="full-screen" content="yes">
+		<meta name="screen-orientation" content="portrait">
+		<title>koa2</title>
+		<link rel="icon" type="image/x-icon" href="/dist/favicon.ico">
+	</head>
+	<body>
+		<div style="margin: 20px">
+			<h1 style="text-align: center">koa2 upload</h1>
+			<form action="http://localhost:3000/api/uploadfile" method="post" enctype="multipart/form-data">
+				<input type="file" name="file" id="file" value="" multiple="multiple" />
+				<input type="submit" value="提交"/>
+			</form>
+		</div>
+	</body>
+</html>
